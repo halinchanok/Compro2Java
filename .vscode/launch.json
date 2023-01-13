@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SpellChecking1",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.SpellChecking1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
             "name": "Launch AABBCC2",
             "request": "launch",
             "mainClass": "String_ClassBasic.AABBCC2",

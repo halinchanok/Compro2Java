@@ -14,7 +14,7 @@ public class ABC1 {
             if(value2-1==value1 && value3-2==value1){
                 count++;
             }
-        }
+        } 
         System.out.println(count);
     }
 }
