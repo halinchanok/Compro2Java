@@ -6,6 +6,54 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch UpSequence2",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.UpSequence2",
+        },
+        {
+            "type": "java",
+            "name": "Launch UpSequence0",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.UpSequence0",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExtremum1",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.StringExtremum1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CharScore1",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.CharScore1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringCut",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.StringCut",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CutAndHide",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.CutAndHide",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpellChecking2",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.SpellChecking2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
             "name": "Launch SpellChecking1",
             "request": "launch",
             "mainClass": "String_ClassBasic.SpellChecking1",
