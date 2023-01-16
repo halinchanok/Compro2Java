@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LongestCount",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.LongestCount",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubMatch2",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.SubMatch2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubMatch1",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.SubMatch1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
             "name": "Launch CharLotto",
             "request": "launch",
             "mainClass": "String_ClassBasic.CharLotto",

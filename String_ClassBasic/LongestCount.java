@@ -1,3 +1,4 @@
+package String_ClassBasic;
 import java.util.Scanner;
 
 public class LongestCount {
@@ -18,6 +19,6 @@ public class LongestCount {
             }
 
         }
-        System.out.println(max + "\n" + count);
+        System.out.println(max + "\n" + (count-1));
     }
 }
