@@ -11,20 +11,18 @@ public class AABBCC2 {
         int max = 0;
         String text2 = "";
         String text3 = "";
+        boolean ck = false;
+        int f = 0;
         for(int i=0; i<text.length(); i++){
             int value1 = (int) text.charAt(i);
             if(value1==value2 || value1-1==value2){
                 count++;
                 if(count > max){
                     max = count;
-                    if(count == 2){
-                        text2 = text2 + ((char)(value1-1)) +(char)value1;
-                    }else 
-                        text2 = text2 + (char)value1;
-
-                    if(text2.length()>text3.length()){
-                        text3 = text2;
+                    if(ck==false){
+                        f = i;
                     }
+                    taxt2 = taxt.subString();
                 }
             }else count = 1;
             value2 = value1;

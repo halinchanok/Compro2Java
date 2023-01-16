@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class WordStats1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int[] arr = new int[100];
+        int[][] arr = new int[100][2];
         int N = sc.nextInt();
         for(int i=0; i<N; i++){
             String str = sc.next();

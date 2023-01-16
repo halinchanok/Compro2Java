@@ -6,9 +6,94 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CharLotto",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.CharLotto",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch WordStats1",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.WordStats1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CharRange2",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.CharRange2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CharInRange1",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.CharInRange1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch tast",
+            "request": "launch",
+            "mainClass": "tast",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CardPair1",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.CardPair1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch DivideString",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.DivideString",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CharCount2",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.CharCount2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CharCount1",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.CharCount1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountBetween2",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.CountBetween2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountBetween1",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.CountBetween1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch UpSequence1",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.UpSequence1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
             "name": "Launch UpSequence2",
             "request": "launch",
             "mainClass": "String_ClassBasic.UpSequence2",
+            "projectName": "Compro2Java_f7db2bb3"
         },
         {
             "type": "java",
