@@ -16,8 +16,8 @@ public class ThreeNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] arr = new int[3];
-        int max = -99999999;
-        int min = 999999999;
+        int max = Integer.MIN_VALUE;
+        int min = Integer.MIN_VALUE;
         int median = 0;
         for (int i = 0; i < 3; i++) {
             arr[i] = sc.nextInt();
