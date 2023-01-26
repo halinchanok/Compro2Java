@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Encoding_Alphabet_with_Number {
-    public static void taxt(int n, int i, String str, char num) {
+    static void taxt(int n, int i, String str, char num) {
         if (num > 90) {
             char c = (char) (str.charAt(i) + n - 26);
             System.out.print(c);
