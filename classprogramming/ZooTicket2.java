@@ -71,7 +71,6 @@ class ZooTicket3 {
             return "no\nfalse";
         }
     }
-
 }
 
 public class ZooTicket2 {

@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LectureRoom1",
+            "request": "launch",
+            "mainClass": "classprogramming.LectureRoom1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch genie",
+            "request": "launch",
+            "mainClass": "genie",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch FillGasTank",
+            "request": "launch",
+            "mainClass": "Array2D.FillGasTank",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
             "name": "Launch ZooTicket2",
             "request": "launch",
             "mainClass": "classprogramming.ZooTicket2",
