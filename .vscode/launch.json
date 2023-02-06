@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BusCompany2",
+            "request": "launch",
+            "mainClass": "classprogramming.BusCompany2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tumbol2",
+            "request": "launch",
+            "mainClass": "classprogramming.Tumbol2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch BusCompany1",
+            "request": "launch",
+            "mainClass": "classprogramming.BusCompany1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
             "name": "Launch LectureRoom1",
             "request": "launch",
             "mainClass": "classprogramming.LectureRoom1",
