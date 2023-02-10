@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ProductStore2",
+            "request": "launch",
+            "mainClass": "Inheritance.ProductStore2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProductStore",
+            "request": "launch",
+            "mainClass": "Inheritance.ProductStore",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch BusCompany3",
+            "request": "launch",
+            "mainClass": "BusCompany3",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
             "name": "Launch BusCompany2",
             "request": "launch",
             "mainClass": "classprogramming.BusCompany2",
