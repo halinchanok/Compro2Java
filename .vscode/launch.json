@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TravelerScreening1",
+            "request": "launch",
+            "mainClass": "classprogramming.TravelerScreening1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch KorKorTor",
+            "request": "launch",
+            "mainClass": "classprogramming.KorKorTor",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
             "name": "Launch ProductStore2",
             "request": "launch",
             "mainClass": "Inheritance.ProductStore2",
