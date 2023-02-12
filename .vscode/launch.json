@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TravelerScreening2",
+            "request": "launch",
+            "mainClass": "classprogramming.TravelerScreening2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
             "name": "Launch TravelerScreening1",
             "request": "launch",
             "mainClass": "classprogramming.TravelerScreening1",
