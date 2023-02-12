@@ -62,6 +62,7 @@ class Shoe extends Product2 {
 
     void printInfo() {
         super.printInfo();
+
         if (gender == 1) {
             System.out.print("female");
         } else
