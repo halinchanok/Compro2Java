@@ -2,17 +2,14 @@ package classprogramming;
 
 import java.util.Scanner;
 
-class ZooTicket1 {
-    private String name;
-    private int sumR;
-    private int sumS;
-    private int sumT;
+class ZooTicket {
+    public String name;
+    public int sumR;
+    public int sumS;
+    public int sumT;
 
-    ZooTicket1(String name) {
+    ZooTicket(String name) {
         this.name = name;
-        this.sumR = 0;
-        this.sumS = 0;
-        this.sumT = 0;
     }
 
     void bookRide() {
@@ -43,18 +40,17 @@ class ZooTicket1 {
             sum += sumT;
         }
         System.out.println(sum);
-
     }
 }
 
 public class ZooTicket1 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String name = sc.next();
-        ZooTicket1 ticket = new ZooTicket1(name);
+        Scanner scan = new Scanner(System.in);
+        String name = scan.next();
+        ZooTicket ticket = new ZooTicket(name);
 
         while (true) {
-            int service = sc.nextInt();
+            int service = scan.nextInt();
             if (service == 0) {
                 break;
             }

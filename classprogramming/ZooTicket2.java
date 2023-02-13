@@ -45,30 +45,30 @@ class ZooTicket3 {
         System.out.println(sum);
     }
 
-    String useRide() {
+    boolean useRide() {
         if (sumR == 40) {
             sumR = 0;
-            return "okay\ntrue";
+            return true;
         } else {
-            return "no\nfalse";
+            return false;
         }
     }
 
-    String enterSealShow() {
+    boolean enterSealShow() {
         if (sumS == 50) {
             sumS = 0;
-            return "okay\ntrue";
+            return true;
         } else {
-            return "no\nfalse";
+            return false;
         }
     }
 
-    String enterTigerShow() {
+    boolean enterTigerShow() {
         if (sumT == 65) {
             sumT = 0;
-            return "okay\ntrue";
+            return true;
         } else {
-            return "no\nfalse";
+            return false;
         }
     }
 }
@@ -93,15 +93,28 @@ public class ZooTicket2 {
             }
         }
         ticket.summarize();
+
         final int Q = sc.nextInt();
         for (int i = 0; i < Q; ++i) {
             int service = sc.nextInt();
             if (service == 1) {
-                System.out.println(ticket.useRide());
+                if (ticket.useRide() == false) {
+                    System.out.println("no\n" + ticket.useRide());
+                } else {
+                    System.out.println("okay\n" + !ticket.useRide());
+                }
             } else if (service == 2) {
-                System.out.println(ticket.enterSealShow());
+                if (ticket.enterSealShow() == false) {
+                    System.out.println("no\n" + ticket.enterSealShow());
+                } else {
+                    System.out.println("okay\n" + !ticket.enterSealShow());
+                }
             } else if (service == 3) {
-                System.out.println(ticket.enterTigerShow());
+                if (ticket.enterTigerShow() == false) {
+                    System.out.println("no\n" + ticket.enterTigerShow());
+                } else {
+                    System.out.println("okay\n" + !ticket.enterTigerShow());
+                }
             }
         }
     }
