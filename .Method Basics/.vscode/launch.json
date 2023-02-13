@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Classroom1",
+            "request": "launch",
+            "mainClass": "classprogramming.Classroom1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CharVoice1",
+            "request": "launch",
+            "mainClass": "classprogramming.CharVoice1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
             "name": "Launch TravelerScreening2",
             "request": "launch",
             "mainClass": "classprogramming.TravelerScreening2",
