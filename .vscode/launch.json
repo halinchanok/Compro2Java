@@ -1,0 +1,552 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AgeReport",
+            "request": "launch",
+            "mainClass": "AgeReport",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayExploration1",
+            "request": "launch",
+            "mainClass": "Array2D.ArrayExploration1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch FillGasTank",
+            "request": "launch",
+            "mainClass": "Array2D.FillGasTank",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Income",
+            "request": "launch",
+            "mainClass": "Array2D.Income",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch OnlyOne1",
+            "request": "launch",
+            "mainClass": "Array2D.OnlyOne1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Subregion",
+            "request": "launch",
+            "mainClass": "Array2D.Subregion",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch SummaryMap",
+            "request": "launch",
+            "mainClass": "Array2D.SummaryMap",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CookiePlan",
+            "request": "launch",
+            "mainClass": "CookiePlan",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Encoding_Alphabet_with_Number",
+            "request": "launch",
+            "mainClass": "Encoding_Alphabet_with_Number",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProductStore",
+            "request": "launch",
+            "mainClass": "Inheritance.ProductStore",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProductStore2",
+            "request": "launch",
+            "mainClass": "Inheritance.ProductStore2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch MakeCookie",
+            "request": "launch",
+            "mainClass": "MakeCookie",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch AABBCC",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.AABBCC",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch AABBCC2",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.AABBCC2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ABC1",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.ABC1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ABC2",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.ABC2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CardPair1",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.CardPair1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CharCount1",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.CharCount1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CharCount2",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.CharCount2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CharInRange1",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.CharInRange1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CharLotto",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.CharLotto",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CharPin",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.CharPin",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CharRange2",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.CharRange2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CharScore1",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.CharScore1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CharWatch1",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.CharWatch1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountBetween1",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.CountBetween1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountBetween2",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.CountBetween2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CutAndHide",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.CutAndHide",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CyclicString1",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.CyclicString1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch DivideString",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.DivideString",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestCount",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.LongestCount",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ShootingString1",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.ShootingString1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ShootingString2",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.ShootingString2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpellChecking1",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.SpellChecking1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpellChecking2",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.SpellChecking2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringCut",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.StringCut",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExtremum1",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.StringExtremum1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringPresence",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.StringPresence",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubMatch1",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.SubMatch1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubMatch2",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.SubMatch2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch UpSequence0",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.UpSequence0",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch UpSequence1",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.UpSequence1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch UpSequence2",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.UpSequence2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch WordStats1",
+            "request": "launch",
+            "mainClass": "String_ClassBasic.WordStats1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch TankObserver",
+            "request": "launch",
+            "mainClass": "TankObserver",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreeNumber",
+            "request": "launch",
+            "mainClass": "ThreeNumber",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch UnderLine1",
+            "request": "launch",
+            "mainClass": "UnderLine1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch UnderLine_With_parameter",
+            "request": "launch",
+            "mainClass": "UnderLine_With_parameter",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch BusCompany1",
+            "request": "launch",
+            "mainClass": "classprogramming.BusCompany1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch BusCompany2",
+            "request": "launch",
+            "mainClass": "classprogramming.BusCompany2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch BusCompany3",
+            "request": "launch",
+            "mainClass": "classprogramming.BusCompany3",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch BusRoute1",
+            "request": "launch",
+            "mainClass": "classprogramming.BusRoute1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch BusRoute2",
+            "request": "launch",
+            "mainClass": "classprogramming.BusRoute2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch BusRoute3",
+            "request": "launch",
+            "mainClass": "classprogramming.BusRoute3",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CharVoice1",
+            "request": "launch",
+            "mainClass": "classprogramming.CharVoice1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Classroom1",
+            "request": "launch",
+            "mainClass": "classprogramming.Classroom1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Department1",
+            "request": "launch",
+            "mainClass": "classprogramming.Department1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Department2",
+            "request": "launch",
+            "mainClass": "classprogramming.Department2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch FieldHospital",
+            "request": "launch",
+            "mainClass": "classprogramming.FieldHospital",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch FoodContents1",
+            "request": "launch",
+            "mainClass": "classprogramming.FoodContents1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch FoodContents2",
+            "request": "launch",
+            "mainClass": "classprogramming.FoodContents2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch HousePrice1",
+            "request": "launch",
+            "mainClass": "classprogramming.HousePrice1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch HousePrice2",
+            "request": "launch",
+            "mainClass": "classprogramming.HousePrice2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch KorKorTor",
+            "request": "launch",
+            "mainClass": "classprogramming.KorKorTor",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch LectureRoom1",
+            "request": "launch",
+            "mainClass": "classprogramming.LectureRoom1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Marathon1",
+            "request": "launch",
+            "mainClass": "classprogramming.Marathon1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch SUGoldShop1",
+            "request": "launch",
+            "mainClass": "classprogramming.SUGoldShop1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Train",
+            "request": "launch",
+            "mainClass": "classprogramming.Train",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch TravelerScreening1",
+            "request": "launch",
+            "mainClass": "classprogramming.TravelerScreening1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch TravelerScreening2",
+            "request": "launch",
+            "mainClass": "classprogramming.TravelerScreening2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tumbol2",
+            "request": "launch",
+            "mainClass": "classprogramming.Tumbol2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ZooTicket1",
+            "request": "launch",
+            "mainClass": "classprogramming.ZooTicket1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ZooTicket2",
+            "request": "launch",
+            "mainClass": "classprogramming.ZooTicket2",
+            "projectName": "Compro2Java_f7db2bb3"
+        }
+    ]
+}
