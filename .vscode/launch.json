@@ -5,6 +5,27 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch Grabpanda1",
+            "request": "launch",
+            "mainClass": "Grabpanda1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Grabpanda2",
+            "request": "launch",
+            "mainClass": "Grabpanda2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch tast",
+            "request": "launch",
+            "mainClass": "tast",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
             "name": "Java",
             "type": "java",
             "request": "launch",
