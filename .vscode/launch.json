@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FanCompany2",
+            "request": "launch",
+            "mainClass": "Array2D.FanCompany2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch FanCompany1",
+            "request": "launch",
+            "mainClass": "Array2D.FanCompany1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
             "name": "Launch Grabpanda1",
             "request": "launch",
             "mainClass": "Grabpanda1",
