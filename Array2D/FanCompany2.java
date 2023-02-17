@@ -3,28 +3,24 @@ package Array2D;
 import java.util.Scanner;
 
 class Motor {
-    double V, I, eff, HP;
+    double V, I, eff;
 
     Motor(double V, double I, double eff) {
         this.V = V;
         this.I = I;
         this.eff = eff / 100;
-        HP = horsepower(V, I, eff);
     }
 
     Motor(double I, double eff) {
-        V = 220;
-        this.I = I;
-        this.eff = eff / 100;
-        HP = horsepower(220, I, eff);
+        this(220, I, eff);
     }
 
-    double horsepower(double V, double I, double eff) {
-        return (V * I * eff / 100) / 746;
+    double horsepower() {
+        return (V * I * eff) / 746;
     }
 
     void printInfo() {
-        double hp = HP;
+        double hp = horsepower();
         System.out.println(V + " " + I + " " + eff + " " + String.format("%.2f", hp));
     }
 }
