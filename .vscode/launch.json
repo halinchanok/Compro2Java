@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FoodTiger2",
+            "request": "launch",
+            "mainClass": "classprogramming.FoodTiger2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "FoodTiger1",
+            "request": "launch",
+            "mainClass": "classprogramming.FoodTiger1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
             "name": "Launch AoSU1",
             "request": "launch",
             "mainClass": "AoSU1",
