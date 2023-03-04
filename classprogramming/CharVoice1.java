@@ -3,35 +3,36 @@ package classprogramming;
 import java.util.Scanner;
 
 class Character {
-    public String[] T;
-    public int cnt;
+    private String msg[];
+    private int Index;
 
-    Character(String[] str) {
-        this.T = str;
-        cnt = 1;
+    Character(String[] msg) {
+        this.msg = msg;
+        Index = 0;
     }
 
     void speak() {
-        if (cnt > T.length) {
-            cnt = 1;
-        }
-        System.out.println(T[cnt]);
-        cnt++;
+        System.out.println(msg[Index]);
+        if (Index >= msg.length - 1) {
+            Index = 0;
+        } else
+            Index++;
     }
 }
 
 public class CharVoice1 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt();
-        String[] str = new String[N];
-        for (int i = 0; i < N; i++) {
-            str[i] = sc.nextLine();
+        Scanner scan = new Scanner(System.in);
+        final int N = scan.nextInt();
+        String[] msg = new String[N];
+        scan.nextLine(); // Skip end-line char
+        for (int i = 0; i < N; ++i) {
+            msg[i] = scan.nextLine();
         }
-        Character c = new Character(str);
-        int g = sc.nextInt();
-        for (int j = 0; j < g; j++) {
-            c.speak();
+        Character crt = new Character(msg);
+        int K = scan.nextInt();
+        for (int i = 0; i < K; i++) {
+            crt.speak();
         }
     }
 }

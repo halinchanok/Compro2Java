@@ -1,28 +1,45 @@
 package classprogramming;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 class Runner {
-    String name;
-    String BIB;
-    static int nRival;
+    String name[];
+    int BIB[];
+    static ArrayList<String> id;
 
-    Runner(String name, int type) {
+    Runner(String[] name, int[] BIB) {
         this.name = name;
-        nRival = 1;
-        if (type == 1) {
-            BIB = "A" + String.format(“%09d”,12345);
-        } else if (type == 2) {
-            BIB = "B";
-        } else if (type == 4) {
-            BIB = "C";
-        } else {
-            BIB = "D";
+        this.BIB = BIB;
+        id = new ArrayList<String>();
+        int n = 1;
+        for (int i = 0; i < BIB.length; i++) {
+            if (BIB[i] == 1) {
+                id.add('A' + String.format("%03d", n));
+                n++;
+            } else if (BIB[i] == 2) {
+                id.add('B' + String.format("%03d", n));
+                n++;
+            } else if (BIB[i] == 3) {
+                id.add('C' + String.format("%03d", n));
+                n++;
+            } else if (BIB[i] == 4) {
+                id.add('D' + String.format("%03d", n));
+                n++;
+            } else {
+                id.add("INVALID");
+            }
         }
     }
 
     void printInfo() {
-        System.out.println(BIB + " " + name);
+        for (int i = 0; i < id.size(); i++) {
+            if (id.get(i) == "INVALID") {
+                System.out.println(id.get(i));
+            } else {
+                System.out.println(id.get(i) + " " + name[i]);
+            }
+        }
     }
 }
 
@@ -30,15 +47,13 @@ public class Marathon1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
-        Runner[] R = new Runner[N + 2];
-        for (int i = 1; i <= N; i++) {
-            String name = sc.next();
-            int type = sc.nextInt();
-            R[i] = new Runner(name, type);
-            R[i + 1].nRival += 1;
+        String name[] = new String[N];
+        int BIB[] = new int[N];
+        for (int i = 0; i < N; i++) {
+            name[i] = sc.next();
+            BIB[i] = sc.nextInt();
         }
-        for (int i = 1; i <= N; i++) {
-            R[i].printInfo();
-        }
+        Runner R = new Runner(name, BIB);
+        R.printInfo();
     }
 }

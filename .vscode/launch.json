@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AoSU1",
+            "request": "launch",
+            "mainClass": "AoSU1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch LandFee",
+            "request": "launch",
+            "mainClass": "classprogramming.LandFee",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pokimon2",
+            "request": "launch",
+            "mainClass": "Pokimon2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pokimon1",
+            "request": "launch",
+            "mainClass": "Pokimon1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CharVoice2",
+            "request": "launch",
+            "mainClass": "classprogramming.CharVoice2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch BankAccount2",
+            "request": "launch",
+            "mainClass": "BankAccount2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch BankAccount1",
+            "request": "launch",
+            "mainClass": "BankAccount1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch BusRoute1",
+            "request": "launch",
+            "mainClass": "BusRoute1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CPUSpec",
+            "request": "launch",
+            "mainClass": "Array2D.CPUSpec",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
             "name": "Launch FanCompany2",
             "request": "launch",
             "mainClass": "Array2D.FanCompany2",
