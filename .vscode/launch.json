@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GoInside",
+            "request": "launch",
+            "mainClass": "Recursion.GoInside",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
             "name": "FoodTiger2",
             "request": "launch",
             "mainClass": "classprogramming.FoodTiger2",
