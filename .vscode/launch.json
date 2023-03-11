@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Enrollment1",
+            "request": "launch",
+            "mainClass": "classprogramming.Enrollment1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "AliCarCar1",
+            "request": "launch",
+            "mainClass": "classprogramming.AliCarCar1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
             "name": "GoInside",
             "request": "launch",
             "mainClass": "Recursion.GoInside",
