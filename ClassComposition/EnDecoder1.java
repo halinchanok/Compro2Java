@@ -22,7 +22,7 @@ class Encoder {
         return -1;
     }
 
-    int encodeMsg(String[] s) {
+    int[] encodeMsg(String[] s) {
         int[] a = new int[s.length];
         for (int i = 0; i < s.length; i++) {
             a[i] = encodeWord(s[i]);
@@ -43,13 +43,15 @@ public class EnDecoder1 {
         for (int i = 0; i < N; i++) {
             num[i] = sc.nextInt();
         }
-        Encoder Enco = new Encoder(str, num);
+        Encoder2 Enco = new Encoder2(str, num);
         int K = sc.nextInt();
         String[] s = new String[K];
         for (int i = 0; i < K; i++) {
             s[i] = sc.next();
         }
-        Enco.encodeMsg(s);
-
+        int[] A = Enco.encodeMsg(s);
+        for (int i = 0; i < A.length; i++) {
+            System.out.print(A[i] + " ");
+        }
     }
 }
