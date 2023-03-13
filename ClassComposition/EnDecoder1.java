@@ -12,10 +12,8 @@ class Encoder {
     }
 
     private int encodeWord(String s) {
-        boolean ck = false;
         for (int i = 0; i < str.length; i++) {
             if (str[i].equals(s)) {
-                ck = true;
                 return num[i];
             }
         }
