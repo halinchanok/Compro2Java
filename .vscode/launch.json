@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EnDecoder1",
+            "request": "launch",
+            "mainClass": "ClassComposition.EnDecoder1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "Covid19Wins1",
+            "request": "launch",
+            "mainClass": "ClassComposition.Covid19Wins1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "ItemAndCart2",
+            "request": "launch",
+            "mainClass": "ClassComposition.ItemAndCart2",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "ItemAndCart1",
+            "request": "launch",
+            "mainClass": "ClassComposition.ItemAndCart1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "ItemAndCart1",
+            "request": "launch",
+            "mainClass": "ItemAndCart1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
+            "name": "ItemAndCart1",
+            "request": "launch",
+            "mainClass": "classprogramming.ItemAndCart1",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
             "name": "Enrollment1",
             "request": "launch",
             "mainClass": "classprogramming.Enrollment1",
