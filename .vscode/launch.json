@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TestTruck",
+            "request": "launch",
+            "mainClass": "ClassComposition.TestTruck",
+            "projectName": "Compro2Java_f7db2bb3"
+        },
+        {
+            "type": "java",
             "name": "Enrollment2",
             "request": "launch",
             "mainClass": "ClassComposition.Enrollment2",
