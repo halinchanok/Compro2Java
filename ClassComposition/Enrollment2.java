@@ -1,4 +1,4 @@
-package classprogramming;
+package ClassComposition;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -14,19 +14,26 @@ class Course2 {
         ID = new ArrayList<Integer>();
     }
 
-    boolean enroll(int id) {
-        boolean ck = true;
-        for (int i = 0; i < ID.size(); i++) {
-            if (id == ID.get(i) || ID.size() >= N) {
-                ck = false;
+    boolean enroll(int code, Student[] s) {
+        Student sdu = null;
+        for (int i = 0; i < s.length; i++) {
+            if (code == s[i].id) {
+                sdu = s[i];
             }
         }
-        if (!ck) {
+        if (sdu == null) {
+            System.out.print("Invalid ID ");
             return false;
-        } else {
-            ID.add(id);
-            return true;
         }
+        for (int i = 0; i < ID.size(); i++) {
+            if (code == ID.get(i) || ID.size() >= N) {
+                return false;
+            }
+        }
+        ID.add(code);
+        System.out.print(sdu.firstName + " " + sdu.lastName + " ");
+        return true;
+
     }
 
     void printInfo() {
@@ -50,7 +57,7 @@ class Student {
     }
 
     void printInfo() {
-
+        System.out.println(id + " " + firstName + " " + lastName);
     }
 }
 
@@ -73,7 +80,7 @@ public class Enrollment2 {
         Course2 co = new Course2(str, N);
         for (int i = 0; i < K; ++i) {
             int id = scan.nextInt();
-            boolean result = co.enroll(id);
+            boolean result = co.enroll(id, s);
             System.out.println(result);
         }
         co.printInfo();

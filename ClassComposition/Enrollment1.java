@@ -1,4 +1,4 @@
-package classprogramming;
+package ClassComposition;
 
 import java.util.ArrayList;
 import java.util.Scanner;
