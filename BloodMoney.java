@@ -5,8 +5,7 @@ public class BloodMoney {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
         for (int i = 1; i <= N; i++) {
-            sc.nextLine();
-            String str = sc.nextLine();
+            String str = sc.next();
             for (int j = 0; j < str.length(); j++) {
                 if (str.charAt(j) == '#') {
 
@@ -19,6 +18,7 @@ public class BloodMoney {
                 }
             }
             System.out.println("]");
+
         }
     }
 }
