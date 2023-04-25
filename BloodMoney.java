@@ -13,7 +13,7 @@ public class BloodMoney {
                 } else if (str.charAt(j) == '@') {
                     System.out.print(" ");
                 } else if (str.charAt(j) == '$') {
-                    System.out.print("[Blood Money ");
+                    System.out.print(" [Blood Money $");
                 } else {
                     System.out.print(str.charAt(j));
                 }
